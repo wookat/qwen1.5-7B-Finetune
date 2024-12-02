@@ -46,18 +46,18 @@ PROMPT_DICT = {
         "You must format your response as follows:\n"
         "1. Analyze the given information step by step\n"
         "2. Choose and output the answer in format: 'The answer is X' (where X is the letter of your chosen option)\n"
-        "<|im_end1|>\n"
+        "<|im_end|>\n"
         "<|im_start|>user\n"
         "{text}\n"
         "Question: {question}\n"
         "Choices:\n"
         "{options}\n"
-        "<|im_end1|>\n"
+        "<|im_end|>\n"
         "<|im_start|>assistant\n"
         "Let me solve this step by step:\n"
     ),
     "prompt_output": (
-        "{answer}<|im_end1|>"
+        "{answer}<|im_end|>"
     )
 }
 ```
